@@ -5,8 +5,3 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: 'publishhtml'
-display name: 'deployhtml'
-inputs:
-  PathtoPublish: '$(build.artifactstagingdirectory)'
